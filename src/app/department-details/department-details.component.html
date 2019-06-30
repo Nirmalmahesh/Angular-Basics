@@ -1,0 +1,15 @@
+<h3>You Selected With Id = {{dep_id}}</h3>
+
+
+<p>
+  <button (click)="showOverview()">Overview</button>
+  <button (click)="showContact()">Contact</button>
+</p>
+<router-outlet></router-outlet>
+<div>
+  <button (click)="goNext()">Next</button>
+  <button (click)="goPrevious()">Previous</button>
+</div>
+<div>
+  <button (click)="goBack()">Back</button>
+</div>

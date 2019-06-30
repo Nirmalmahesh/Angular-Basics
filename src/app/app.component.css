@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: cadetblue;
+}
+.nav-button{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border : 2px solid green;
+    text-decoration: none;
+    color: black;
+}
+.nav-button:hover{
+    background-color: green;
+    color: whitesmoke;
+    border : 2px solid yellow;
+}
+.active-link{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
